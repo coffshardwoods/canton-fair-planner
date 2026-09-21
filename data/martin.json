@@ -15,6 +15,28 @@
         "What is the smallest practical installation footprint?"
       ],
       "notes": "Replace this with real notes once a confirmed exhibitor is added."
+    },
+    {
+      "exhibitorId": "target-smart-wearables-translation",
+      "priority": "medium",
+      "status": "find confirmed booths",
+      "reason": "Compare lower-cost Chinese translation earbuds and devices with Pete's Timekettle during Phase 1.",
+      "interests": [
+        "Real-time two-way English-Mandarin translation",
+        "Offline translation",
+        "iPhone compatibility",
+        "Sample purchase and retail pricing",
+        "OEM pricing"
+      ],
+      "questions": [
+        "Does English-Mandarin translation work fully offline?",
+        "Must the earbuds stay connected to a phone by Bluetooth?",
+        "Can two people each wear one earbud for a natural conversation?",
+        "Does the iPhone app and translation service work reliably in mainland China?",
+        "Can we buy a sample at the fair, and what is the retail or sample price?",
+        "How does the translation speed and accuracy compare with Timekettle?"
+      ],
+      "notes": "Phase 1 target. Hall, booth and confirmed exhibitors still to be researched."
     }
   ]
 }
