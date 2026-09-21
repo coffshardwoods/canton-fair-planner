@@ -27,6 +27,19 @@
       "products": ["Material handling", "Sorting", "Safety systems"],
       "website": "",
       "source": "Demo placeholder - replace with confirmed Canton Fair source"
+    },
+    {
+      "id": "target-smart-wearables-translation",
+      "demo": true,
+      "company": "Smart Wearables / AI Translation Devices",
+      "phase": "Phase 1",
+      "hall": "TBC",
+      "booth": "TBC",
+      "zone": "Smart Wearables / Consumer Electronics",
+      "category": "Smart Wearables",
+      "products": ["AI translation earbuds", "Handheld translators", "Offline English-Mandarin translation"],
+      "website": "",
+      "source": "Category target only - replace or expand with confirmed exhibitors and booth numbers"
     }
   ]
 }
