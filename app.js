@@ -17,6 +17,7 @@ const state = {
 
 const els = {
   syncStatus: document.querySelector("#syncStatus"),
+  refreshButton: document.querySelector("#refreshButton"),
   searchInput: document.querySelector("#searchInput"),
   priorityFilter: document.querySelector("#priorityFilter"),
   hallFilter: document.querySelector("#hallFilter"),
@@ -107,6 +108,12 @@ function getTopPriority(priorities) {
 }
 
 function bindControls() {
+  els.refreshButton.addEventListener("click", () => {
+    const url = new URL(window.location.href);
+    url.searchParams.set("_refresh", Date.now());
+    window.location.replace(url.toString());
+  });
+
   els.searchInput.addEventListener("input", (event) => {
     state.search = event.target.value.trim().toLowerCase();
     render();
