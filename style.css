@@ -52,6 +52,13 @@ h1 {
   font-size: 1.45rem;
 }
 
+.publish-test {
+  margin-top: 4px;
+  color: var(--accent-strong);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
 .eyebrow,
 .meta {
   color: var(--muted);
