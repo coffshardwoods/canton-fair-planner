@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "person": "Pete",
+  "instructions": "Pete's AI can safely edit this file without changing the website. Use confirmed exhibitorId values from data/exhibitors.json.",
+  "selections": [
+    {
+      "exhibitorId": "demo-timber-automation-1",
+      "priority": "medium",
+      "status": "to review",
+      "reason": "Demo only: compare automation claims, support requirements, and practical fit for Australian hardwood operations.",
+      "interests": ["After-sales support", "Spares", "Maintenance requirements"],
+      "questions": [
+        "Do they have installations in Australia or similar markets?",
+        "What support is available after the fair?"
+      ],
+      "notes": "Pete's AI should replace this once real booth data is confirmed."
+    },
+    {
+      "exhibitorId": "demo-sawmill-handling-1",
+      "priority": "low",
+      "status": "parked",
+      "reason": "Demo only: possible secondary visit if route timing permits.",
+      "interests": ["Sorting", "Handling"],
+      "questions": [],
+      "notes": "Placeholder only."
+    }
+  ]
+}

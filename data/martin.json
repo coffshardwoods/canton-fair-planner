@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "person": "Martin",
+  "instructions": "Add Martin's shortlist records here. Use exhibitorId values from data/exhibitors.json.",
+  "selections": [
+    {
+      "exhibitorId": "demo-timber-automation-1",
+      "priority": "high",
+      "status": "to review",
+      "reason": "Demo only: evaluate whether automation could reduce manual timber stacking and improve pack consistency.",
+      "interests": ["Stacking workflow", "Timber dimensions", "Integration with current process"],
+      "questions": [
+        "What timber sizes and weights can the system handle?",
+        "Can it work with variable-length hardwood packs?",
+        "What is the smallest practical installation footprint?"
+      ],
+      "notes": "Replace this with real notes once a confirmed exhibitor is added."
+    }
+  ]
+}

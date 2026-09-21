@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "notes": "Do not add unverified Canton Fair exhibitors or booth numbers. Demo records below are placeholders only.",
+  "exhibitors": [
+    {
+      "id": "demo-timber-automation-1",
+      "demo": true,
+      "company": "DEMO Timber Automation Supplier",
+      "phase": "TBC",
+      "hall": "Demo Hall A",
+      "booth": "Demo Booth 01",
+      "zone": "Demo Zone",
+      "category": "Timber Stacking / Automation",
+      "products": ["Robotic stacking", "Conveyors", "Timber handling"],
+      "website": "",
+      "source": "Demo placeholder - replace with confirmed Canton Fair source"
+    },
+    {
+      "id": "demo-sawmill-handling-1",
+      "demo": true,
+      "company": "DEMO Sawmill Handling Company",
+      "phase": "TBC",
+      "hall": "Demo Hall B",
+      "booth": "Demo Booth 02",
+      "zone": "Demo Zone",
+      "category": "Sawmill Equipment",
+      "products": ["Material handling", "Sorting", "Safety systems"],
+      "website": "",
+      "source": "Demo placeholder - replace with confirmed Canton Fair source"
+    }
+  ]
+}

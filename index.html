@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f766e">
+    <title>Canton Fair Planner</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Mobile booth planner</p>
+        <h1>Canton Fair Planner</h1>
+      </div>
+      <div class="sync-status" id="syncStatus">Loading data</div>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="Planner filters">
+        <label class="search">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Company, hall, product, note">
+        </label>
+
+        <div class="segmented" role="group" aria-label="Owner filter">
+          <button class="is-active" data-owner="all" type="button">All</button>
+          <button data-owner="martin" type="button">Martin</button>
+          <button data-owner="pete" type="button">Pete</button>
+          <button data-owner="both" type="button">Both</button>
+        </div>
+
+        <div class="filter-grid">
+          <label>
+            <span>Priority</span>
+            <select id="priorityFilter"></select>
+          </label>
+          <label>
+            <span>Hall</span>
+            <select id="hallFilter"></select>
+          </label>
+          <label>
+            <span>Category</span>
+            <select id="categoryFilter"></select>
+          </label>
+          <label>
+            <span>Status</span>
+            <select id="statusFilter"></select>
+          </label>
+        </div>
+      </section>
+
+      <section class="view-tabs" role="tablist" aria-label="Planner views">
+        <button class="is-active" data-view="cards" type="button">Booths</button>
+        <button data-view="route" type="button">Route</button>
+        <button data-view="data" type="button">Data</button>
+      </section>
+
+      <section class="category-callout">
+        <div>
+          <p class="eyebrow">Priority category</p>
+          <h2>Timber Stacking / Automation</h2>
+        </div>
+        <p>Use this category for robotic stacking, timber handling, scanning, conveyors, optimisation, and automation suppliers.</p>
+      </section>
+
+      <section id="cardsView" class="results" aria-live="polite"></section>
+      <section id="routeView" class="route hidden" aria-live="polite"></section>
+      <section id="dataView" class="data-help hidden">
+        <h2>JSON contribution model</h2>
+        <p>Shared exhibitor facts live in <code>data/exhibitors.json</code>. Martin and Pete selections live in separate files, each referring to an exhibitor by <code>id</code>.</p>
+        <p>To add a real booth, add confirmed public details to the shared file, then add personal reasons, questions, priority, and notes in the relevant shortlist file.</p>
+      </section>
+    </main>
+
+    <template id="cardTemplate">
+      <article class="booth-card">
+        <div class="card-top">
+          <div>
+            <p class="meta owner"></p>
+            <h2></h2>
+          </div>
+          <span class="priority"></span>
+        </div>
+        <dl class="facts"></dl>
+        <div class="tags"></div>
+        <div class="reason"></div>
+        <div class="questions"></div>
+        <div class="notes"></div>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
