@@ -87,7 +87,10 @@ main {
 
 .toolbar,
 .category-callout,
-.data-help {
+.data-help,
+.reference-summary,
+.reference-warning,
+.reference-zone {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -125,7 +128,7 @@ select {
 }
 
 .view-tabs {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: 14px 0;
 }
 
@@ -270,7 +273,10 @@ h3 {
 
 .booth-card p,
 .booth-card li,
-.data-help p {
+.data-help p,
+.reference-summary p,
+.reference-warning p,
+.reference-zone p {
   color: var(--muted);
   line-height: 1.45;
 }
@@ -315,7 +321,8 @@ h3 {
   color: var(--muted);
 }
 
-.data-help {
+.data-help,
+.reference-view {
   display: grid;
   gap: 10px;
 }
@@ -323,6 +330,38 @@ h3 {
 .data-help code {
   color: var(--accent-strong);
   font-weight: 800;
+}
+
+.reference-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.reference-summary h2,
+.reference-zone h2 {
+  font-size: 1.05rem;
+}
+
+.pdf-link {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 9px 12px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.reference-warning {
+  border-left: 5px solid var(--amber);
+}
+
+.reference-grid {
+  display: grid;
+  gap: 10px;
 }
 
 .empty {
@@ -357,6 +396,10 @@ h3 {
   }
 
   .results {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .reference-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

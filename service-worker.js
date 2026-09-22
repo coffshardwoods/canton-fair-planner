@@ -1,4 +1,4 @@
-const CACHE_NAME = "canton-fair-planner-v1";
+const CACHE_NAME = "canton-fair-planner-v2";
 const ASSETS = [
   "./",
   "index.html",
@@ -8,7 +8,8 @@ const ASSETS = [
   "icons/icon.svg",
   "data/exhibitors.json",
   "data/martin.json",
-  "data/pete.json"
+  "data/pete.json",
+  "data/phase-1-guide-summary.json"
 ];
 
 self.addEventListener("install", (event) => {

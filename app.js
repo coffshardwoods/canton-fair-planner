@@ -1,7 +1,8 @@
 const DATA_FILES = {
   exhibitors: "data/exhibitors.json",
   martin: "data/martin.json",
-  pete: "data/pete.json"
+  pete: "data/pete.json",
+  phase1Guide: "data/phase-1-guide-summary.json"
 };
 
 const state = {
@@ -12,7 +13,8 @@ const state = {
   hall: "all",
   category: "all",
   status: "all",
-  records: []
+  records: [],
+  reference: null
 };
 
 const els = {
@@ -26,6 +28,7 @@ const els = {
   cardsView: document.querySelector("#cardsView"),
   routeView: document.querySelector("#routeView"),
   dataView: document.querySelector("#dataView"),
+  referenceView: document.querySelector("#referenceView"),
   cardTemplate: document.querySelector("#cardTemplate")
 };
 
@@ -34,16 +37,18 @@ init();
 async function init() {
   bindControls();
   try {
-    const [exhibitors, martin, pete] = await Promise.all([
+    const [exhibitors, martin, pete, phase1Guide] = await Promise.all([
       fetchJson(DATA_FILES.exhibitors),
       fetchJson(DATA_FILES.martin),
-      fetchJson(DATA_FILES.pete)
+      fetchJson(DATA_FILES.pete),
+      fetchJson(DATA_FILES.phase1Guide)
     ]);
 
     state.records = mergeData(exhibitors.exhibitors || [], {
       martin: martin.selections || [],
       pete: pete.selections || []
     });
+    state.reference = phase1Guide;
 
     buildSelects();
     render();
@@ -179,9 +184,11 @@ function render() {
   els.cardsView.classList.toggle("hidden", state.view !== "cards");
   els.routeView.classList.toggle("hidden", state.view !== "route");
   els.dataView.classList.toggle("hidden", state.view !== "data");
+  els.referenceView.classList.toggle("hidden", state.view !== "reference");
 
   if (state.view === "cards") renderCards(records);
   if (state.view === "route") renderRoute(records);
+  if (state.view === "reference") renderReference();
 }
 
 function filteredRecords() {
@@ -226,6 +233,43 @@ function renderRoute(records) {
   els.routeView.innerHTML = sorted.length
     ? sorted.map((record, index) => routeItem(record, index + 1)).join("")
     : `<p class="empty">No route stops match these filters.</p>`;
+}
+
+function renderReference() {
+  const guide = state.reference;
+  if (!guide) {
+    els.referenceView.innerHTML = `<p class="empty">Reference data has not loaded yet.</p>`;
+    return;
+  }
+
+  els.referenceView.innerHTML = `
+    <article class="reference-summary">
+      <div>
+        <p class="eyebrow">${escapeHtml(guide.phase || "Reference")}</p>
+        <h2>${escapeHtml(guide.title)}</h2>
+        <p>${escapeHtml(guide.dates || "")}</p>
+      </div>
+      <a class="pdf-link" href="${escapeHtml(guide.sourceFile)}" target="_blank" rel="noopener">Open PDF</a>
+    </article>
+    <article class="reference-warning">
+      <h3>Use this as reference data only</h3>
+      <p>${escapeHtml((guide.doNotUseFor || []).join(" · "))}</p>
+    </article>
+    <div class="reference-grid">
+      ${(guide.referenceZones || []).map(referenceZoneHtml).join("")}
+    </div>
+  `;
+}
+
+function referenceZoneHtml(zone) {
+  return `
+    <article class="reference-zone">
+      <p class="meta">${escapeHtml(zone.area || "Area TBC")} · ${escapeHtml(zone.phase || "Phase TBC")}</p>
+      <h2>${escapeHtml(zone.category)}</h2>
+      <div class="tags">${tagHtml(zone.halls || [])}</div>
+      <p>${escapeHtml(zone.notes || "")}</p>
+    </article>
+  `;
 }
 
 function routeSort(a, b) {

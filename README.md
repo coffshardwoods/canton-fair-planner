@@ -16,6 +16,9 @@ icons/icon.svg          App icon
 data/exhibitors.json    Shared exhibitor facts
 data/martin.json        Martin shortlist and notes
 data/pete.json          Pete shortlist and notes
+data/phase-1-guide-summary.json
+                        Lightweight reference data from the Phase 1 buyer guide
+references/             Original source PDFs and research documents
 ```
 
 ## Data Model
@@ -66,6 +69,20 @@ Rules:
 4. Mark uncertain values as `TBC`.
 5. Use the existing category `Timber Stacking / Automation` for timber stacking, handling, conveyors, scanning, optimisation, robotics, and automation.
 6. Keep Pete-specific reasons, questions, priority, status, and notes in `data/pete.json`.
+
+## Reference Documents
+
+Original source documents live in `references/`. The Phase 1 buyer guide PDF is stored there as source material and is summarised in `data/phase-1-guide-summary.json` for the app's Reference view.
+
+Reference documents are useful for hall, area, product-zone, service, and navigation context. They should not be used to create exhibitor records unless they include confirmed company, hall, and booth details.
+
+When using reference documents:
+
+1. Keep the original PDF in `references/`.
+2. Add or update a small JSON summary in `data/`.
+3. Mark clearly what the document can and cannot be used for.
+4. Do not turn product zones into exhibitor cards.
+5. Do not invent booth numbers from maps or category layouts.
 
 ## Local Use
 

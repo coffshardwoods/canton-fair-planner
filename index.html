@@ -56,6 +56,7 @@
         <button class="is-active" data-view="cards" type="button">Booths</button>
         <button data-view="route" type="button">Route</button>
         <button data-view="data" type="button">Data</button>
+        <button data-view="reference" type="button">Reference</button>
       </section>
 
       <section class="category-callout">
@@ -73,6 +74,7 @@
         <p>Shared exhibitor facts live in <code>data/exhibitors.json</code>. Martin and Pete selections live in separate files, each referring to an exhibitor by <code>id</code>.</p>
         <p>To add a real booth, add confirmed public details to the shared file, then add personal reasons, questions, priority, and notes in the relevant shortlist file.</p>
       </section>
+      <section id="referenceView" class="reference-view hidden" aria-live="polite"></section>
     </main>
 
     <template id="cardTemplate">

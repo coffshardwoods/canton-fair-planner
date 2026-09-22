@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "title": "Buyer Guide - Phase 1",
+  "phase": "Phase 1",
+  "dates": "April 15-19, 2026",
+  "sourceFile": "references/Buyer Guide-Phase 1.pdf",
+  "sourceType": "official buyer guide PDF",
+  "useFor": [
+    "Phase 1 hall and area reference",
+    "Product zone mapping",
+    "Navigation context",
+    "Finding where relevant categories are located before adding confirmed exhibitors"
+  ],
+  "doNotUseFor": [
+    "Creating confirmed exhibitor records by itself",
+    "Inventing company names, hall numbers, or booth numbers",
+    "Treating product zones as individual exhibitors"
+  ],
+  "referenceZones": [
+    {
+      "category": "Industrial Automation and Intelligent Manufacturing",
+      "area": "Area D",
+      "halls": ["20.1"],
+      "phase": "Phase 1",
+      "notes": "Includes industrial robots, industrial automation systems, electronic control systems, intelligent logistics and equipment, CNC machine tools, and additive manufacturing equipment."
+    },
+    {
+      "category": "Processing Machinery Equipment",
+      "area": "Area D",
+      "halls": ["17.2", "18.2"],
+      "phase": "Phase 1",
+      "notes": "Use as a search area for machinery exhibitors. Confirm individual booth records separately."
+    },
+    {
+      "category": "General Machinery and Mechanical Basic Parts",
+      "area": "Area A",
+      "halls": ["1.1", "2.1", "1.2", "2.2", "5.0", "8.0"],
+      "phase": "Phase 1",
+      "notes": "Useful for general machinery, small machinery, and mechanical basic parts research."
+    },
+    {
+      "category": "Agricultural Machinery",
+      "area": "Area A",
+      "halls": ["5.0", "8.0", "8.1"],
+      "phase": "Phase 1",
+      "notes": "May be useful for material handling or machinery suppliers depending on Pete or Martin's focus."
+    },
+    {
+      "category": "Hardware Tools",
+      "area": "Area B",
+      "halls": ["9.1", "10.1", "11.1", "12.1", "13.1"],
+      "phase": "Phase 1",
+      "notes": "Useful for tools, hardware, and related industrial supplies. Confirm details against exhibitor data before adding booth cards."
+    },
+    {
+      "category": "Service Robots",
+      "area": "Area D",
+      "halls": ["21.2"],
+      "phase": "Phase 1",
+      "notes": "Special zone for service robots. Treat as navigation context unless confirmed exhibitor-level details are available."
+    }
+  ]
+}
