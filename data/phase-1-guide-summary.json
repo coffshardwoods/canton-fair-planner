@@ -16,7 +16,24 @@
     "Inventing company names, hall numbers, or booth numbers",
     "Treating product zones as individual exhibitors"
   ],
+  "entranceGuidance": {
+    "summary": "The Phase 1 guide shows multiple Canton Fair Complex gates, not a single entrance. Choose the gate or registration route closest to the first area you plan to visit, then follow onsite signage and security directions.",
+    "martinSuggestedStart": "For Martin's current targets, start with Area D because Industrial Automation and Intelligent Manufacturing, Processing Machinery, Service Robots, and some Smart Life / electronics-related zones are there.",
+    "currentAreaOrder": ["Area D", "Area A", "Area B", "Area C"],
+    "notes": [
+      "Use Area D first for automation, processing machinery, service robots, and translation-device research.",
+      "Use Area A next for general machinery, mechanical basic parts, agricultural machinery, and related equipment.",
+      "Only add Area B or Area C if confirmed exhibitors or specific product zones become relevant."
+    ]
+  },
   "referenceZones": [
+    {
+      "category": "Smart Life Product Zone",
+      "area": "Area D",
+      "halls": ["20.2"],
+      "phase": "Phase 1",
+      "notes": "The guide also references Smart Life halls in Area A. Use this as a lead for translation devices and smart wearable research, then confirm individual exhibitors separately."
+    },
     {
       "category": "Industrial Automation and Intelligent Manufacturing",
       "area": "Area D",

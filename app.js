@@ -231,8 +231,38 @@ function renderCards(records) {
 function renderRoute(records) {
   const sorted = [...records].sort(routeSort);
   els.routeView.innerHTML = sorted.length
-    ? sorted.map((record, index) => routeItem(record, index + 1)).join("")
+    ? routeIntroHtml() + groupedRouteHtml(sorted)
     : `<p class="empty">No route stops match these filters.</p>`;
+}
+
+function routeIntroHtml() {
+  const guidance = state.reference?.entranceGuidance;
+  if (!guidance) return "";
+  return `
+    <article class="route-guide">
+      <p class="eyebrow">Entrance and route logic</p>
+      <h2>Start with ${escapeHtml(guidance.currentAreaOrder?.[0] || "the first confirmed area")}</h2>
+      <p>${escapeHtml(guidance.summary)}</p>
+      <p>${escapeHtml(guidance.martinSuggestedStart || "")}</p>
+    </article>
+  `;
+}
+
+function groupedRouteHtml(records) {
+  const groups = new Map();
+  records.forEach((record) => {
+    const area = record.area || "Area TBC";
+    if (!groups.has(area)) groups.set(area, []);
+    groups.get(area).push(record);
+  });
+
+  let count = 0;
+  return [...groups.entries()].map(([area, areaRecords]) => `
+    <section class="route-area">
+      <h2>${escapeHtml(area)}</h2>
+      ${areaRecords.map((record) => routeItem(record, ++count)).join("")}
+    </section>
+  `).join("");
 }
 
 function renderReference() {
@@ -273,9 +303,16 @@ function referenceZoneHtml(zone) {
 }
 
 function routeSort(a, b) {
-  return String(a.hall || "").localeCompare(String(b.hall || ""), undefined, { numeric: true }) ||
+  return areaRank(a.area) - areaRank(b.area) ||
+    String(a.hall || "").localeCompare(String(b.hall || ""), undefined, { numeric: true }) ||
     String(a.zone || "").localeCompare(String(b.zone || ""), undefined, { numeric: true }) ||
     String(a.booth || "").localeCompare(String(b.booth || ""), undefined, { numeric: true });
+}
+
+function areaRank(area) {
+  const order = state.reference?.entranceGuidance?.currentAreaOrder || ["Area A", "Area B", "Area C", "Area D"];
+  const index = order.indexOf(area);
+  return index === -1 ? 99 : index;
 }
 
 function routeItem(record, number) {
@@ -284,7 +321,7 @@ function routeItem(record, number) {
       <strong>${number}</strong>
       <div>
         <h2>${escapeHtml(record.company)}</h2>
-        <p>${escapeHtml(record.hall || "Hall TBC")} · ${escapeHtml(record.booth || "Booth TBC")} · ${escapeHtml(record.zone || "Zone TBC")}</p>
+        <p>${escapeHtml(record.area || "Area TBC")} · ${escapeHtml(record.hall || "Hall TBC")} · ${escapeHtml(record.booth || "Booth TBC")}</p>
         <span>${escapeHtml(record.category || "Uncategorised")}</span>
       </div>
     </article>
@@ -295,7 +332,7 @@ function factHtml(record) {
   const facts = [
     ["Hall", record.hall || "TBC"],
     ["Booth", record.booth || "TBC"],
-    ["Zone", record.zone || "TBC"],
+    ["Area", record.area || "TBC"],
     ["Phase", record.phase || "TBC"]
   ];
   return facts.map(([label, value]) => `<div><dt>${label}</dt><dd>${escapeHtml(value)}</dd></div>`).join("");

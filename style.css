@@ -178,7 +178,9 @@ select {
 }
 
 .booth-card,
-.route-stop {
+.route-stop,
+.route-guide,
+.route-area {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -294,10 +296,33 @@ h3 {
   font-weight: 800;
 }
 
+.route-guide {
+  border-left: 5px solid var(--accent);
+}
+
+.route-guide h2,
+.route-area h2 {
+  font-size: 1.05rem;
+}
+
+.route-guide p {
+  margin-top: 6px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.route-area {
+  display: grid;
+  gap: 10px;
+}
+
 .route-stop {
   display: grid;
   grid-template-columns: 34px 1fr;
   gap: 12px;
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .route-stop strong {
