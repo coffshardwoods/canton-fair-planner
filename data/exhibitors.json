@@ -169,6 +169,34 @@
       "products": ["Industrial steam boilers", "Biomass fired boilers", "Hot water boilers", "Industrial heating systems"],
       "website": "https://www.boilermanufactory.com/news/company/fangkuai-boiler-canton-fair-2026.html",
       "source": "FANGKUAI official announcement lists Booth 6.1B03 and biomass fired boilers for Canton Fair 2026."
+    },
+    {
+      "id": "huayifeng-sensor",
+      "demo": false,
+      "company": "Shenzhen Huayifeng Sensor Co., Ltd. / HUAYIFENG SENSOR",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "20.1",
+      "booth": "20.1E07",
+      "zone": "Industrial Automation and Intelligent Manufacturing",
+      "category": "Machine Vision",
+      "products": ["Laser displacement and TOF distance sensors", "Safety light curtains", "Photoelectric and proximity sensors", "Industrial sensing solutions"],
+      "website": "https://www.huayifeng.com/",
+      "source": "HUAYIFENG SENSOR company LinkedIn post lists Hall 20.1 Booth 20.1E07 and its industrial sensing range for the 140th Canton Fair."
+    },
+    {
+      "id": "onen-forklifts",
+      "demo": false,
+      "company": "ONEN Forklifts / Guangdong ONEN New Energy Co., Ltd.",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "20.1",
+      "booth": "20.1A19-20",
+      "zone": "Industrial Automation and Intelligent Manufacturing",
+      "category": "Material Handling",
+      "products": ["Electric forklifts", "Electric pallet trucks", "Electric pallet stackers", "Reach trucks", "Wheel loaders"],
+      "website": "https://www.onenforklifts.com/amp/We-warmly-invite-you-to-visit-our-ONEN-Energy-booth-at-the-140th-Canton-Fair-Autumn-2026-id02073725.html",
+      "source": "ONEN's official 140th Canton Fair invitation lists Phase 1 Booth 20.1A19-20 and its material-handling range."
     }
   ]
 }

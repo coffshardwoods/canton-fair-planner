@@ -162,6 +162,34 @@
         "What emissions controls and certifications would be needed for Australia?"
       ],
       "notes": "Supporting briquette-production equipment rather than briquette press machinery."
+    },
+    {
+      "exhibitorId": "huayifeng-sensor",
+      "priority": "high",
+      "status": "verified",
+      "reason": "Strong timber-stacking-cell component lead: positioning sensors, safety light curtains and photoelectric sensing are relevant to pack detection, machine guarding, alignment and conveyor/robot cell safety.",
+      "interests": ["Laser and TOF distance sensing", "Safety light curtains", "Photoelectric sensors", "Machine safety", "Positioning and alignment"],
+      "questions": [
+        "Which sensor technologies work reliably with dusty hardwood, variable surfaces and changing ambient light?",
+        "Can they recommend a sensor layout for detecting board/pack position and height on a conveyor?",
+        "What safety light-curtain options suit access guarding around a timber stacking cell?",
+        "Do their sensors support standard PLC and industrial-fieldbus connections?"
+      ],
+      "notes": "Excellent technical stop in the Industrial Automation hall. This is component technology, not a complete robot cell. Confirm the stand in the official Canton Fair app before travel."
+    },
+    {
+      "exhibitorId": "onen-forklifts",
+      "priority": "medium",
+      "status": "verified",
+      "reason": "Useful material-handling benchmark for moving finished timber packs and comparing electric pallet stackers or reach-truck options around an automated cell.",
+      "interests": ["Electric pallet stackers", "Pallet trucks", "Reach trucks", "Timber-pack handling", "Warehouse flow"],
+      "questions": [
+        "Which machines and attachments are suitable for long, uneven or heavy timber packs?",
+        "What lift capacities, fork lengths and aisle widths are achievable?",
+        "Can they supply custom forks, clamps or other timber-pack attachments?",
+        "What Australian support, spares and compliance documentation are available?"
+      ],
+      "notes": "A supporting handling stop, not the automated stacking mechanism itself. It sits in the same Area D Hall 20.1 research cluster."
     }
   ]
 }
