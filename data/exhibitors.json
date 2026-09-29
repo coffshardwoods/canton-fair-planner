@@ -197,6 +197,48 @@
       "products": ["Electric forklifts", "Electric pallet trucks", "Electric pallet stackers", "Reach trucks", "Wheel loaders"],
       "website": "https://www.onenforklifts.com/amp/We-warmly-invite-you-to-visit-our-ONEN-Energy-booth-at-the-140th-Canton-Fair-Autumn-2026-id02073725.html",
       "source": "ONEN's official 140th Canton Fair invitation lists Phase 1 Booth 20.1A19-20 and its material-handling range."
+    },
+    {
+      "id": "rayvanbo-lifting",
+      "demo": false,
+      "company": "RAYVANBO Lifting Equipment",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "19.1",
+      "booth": "19.1K30-31",
+      "zone": "Processing Machinery Equipment",
+      "category": "Material Handling",
+      "products": ["Overhead cranes", "Jib cranes", "Mobile gantry cranes", "Electric chain hoists", "Electric wire-rope hoists"],
+      "website": "https://www.rayvanbocranes.com/news/meet-rayvanbo-at-the-140th-canton-fair-85629130.html",
+      "source": "RAYVANBO's official 140th Canton Fair announcement lists Area D Booth 19.1K30-31 and its crane and hoist range."
+    },
+    {
+      "id": "sevencrane",
+      "demo": false,
+      "company": "Henan Seven Industry Co., Ltd. / SEVENCRANE",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "20.1",
+      "booth": "20.1D42",
+      "zone": "Industrial Automation and Intelligent Manufacturing",
+      "category": "Material Handling",
+      "products": ["Overhead cranes", "Gantry cranes", "Jib cranes", "Electric hoists", "Crane kits", "Lifting beams"],
+      "website": "https://www.sevenmachinery.com/",
+      "source": "SEVENCRANE's official 140th Canton Fair announcement lists Booth 20.1D42 and its crane, hoist and lifting-equipment range."
+    },
+    {
+      "id": "plutools-motion",
+      "demo": false,
+      "company": "PLUTOOLS",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "20.1",
+      "booth": "20.1G40-41",
+      "zone": "Industrial Automation and Intelligent Manufacturing",
+      "category": "Automation",
+      "products": ["AGV drive systems", "AMR drive solutions", "Mobile-robot motion technology", "Automated material-handling drives"],
+      "website": "https://www.plutools.com/news/plutools-to-attend-the-140th-canton-fair-in-gu-85647420.html",
+      "source": "PLUTOOLS' official 140th Canton Fair announcement lists Booth 20.1G40-41 and AGV/AMR drive solutions."
     }
   ]
 }

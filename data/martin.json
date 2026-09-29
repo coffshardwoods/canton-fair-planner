@@ -190,6 +190,48 @@
         "What Australian support, spares and compliance documentation are available?"
       ],
       "notes": "A supporting handling stop, not the automated stacking mechanism itself. It sits in the same Area D Hall 20.1 research cluster."
+    },
+    {
+      "exhibitorId": "rayvanbo-lifting",
+      "priority": "high",
+      "status": "verified",
+      "reason": "A practical alternative to a robot for moving long hardwood packs: overhead or mobile gantry-crane systems can span a production line and handle awkward loads where fork or robot reach becomes limiting.",
+      "interests": ["Overhead cranes", "Mobile gantry cranes", "Electric hoists", "Timber-pack lifting", "Custom lifting fixtures"],
+      "questions": [
+        "Can a gantry or overhead system lift long, uneven hardwood packs safely without board damage?",
+        "Do they design lifting beams, spreader bars or custom timber-pack fixtures?",
+        "What load-positioning accuracy and anti-sway options are available?",
+        "Can a crane be integrated with conveyors, sensors or semi-automated stacking stations?"
+      ],
+      "notes": "One of the better real-world timber-pack handling leads. It is a crane/hoist solution, not an industrial robot arm."
+    },
+    {
+      "exhibitorId": "sevencrane",
+      "priority": "high",
+      "status": "verified",
+      "reason": "Crane, gantry and lifting-beam supplier in the Industrial Automation hall. Relevant for assessing an overhead pack-handling mechanism or a semi-automated timber stacking station.",
+      "interests": ["Gantry cranes", "Overhead cranes", "Lifting beams", "Electric hoists", "Timber-pack handling"],
+      "questions": [
+        "Can they engineer a lifting beam or clamp arrangement for hardwood packs of varying lengths?",
+        "What options provide controlled, repeatable placement onto stacking bunks?",
+        "Can the crane be automated or interfaced with PLCs, positioning sensors and safety systems?",
+        "What Australian installation, certification and spares support is available?"
+      ],
+      "notes": "High-value Hall 20.1 visit because it can be considered alongside sensors, controls and other automation-cell components."
+    },
+    {
+      "exhibitorId": "plutools-motion",
+      "priority": "medium",
+      "status": "verified",
+      "reason": "AGV and AMR drive specialist. Useful for understanding whether automated mobile handling could move packs or pallets between sawmill process steps and a future stacking cell.",
+      "interests": ["AGV drives", "AMR drives", "Automated intralogistics", "Mobile material handling", "Motion systems"],
+      "questions": [
+        "What payload, gradient and floor-condition limits apply to their AGV/AMR drive solutions?",
+        "Can the drive technology be integrated into a custom long-load timber carrier?",
+        "What safety sensing and fleet-control interfaces are supported?",
+        "Do they have examples of heavy, dusty industrial applications rather than clean warehouse use?"
+      ],
+      "notes": "Useful for future material flow, but it will not replace a stacking mechanism on its own."
     }
   ]
 }
