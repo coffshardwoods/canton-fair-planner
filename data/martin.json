@@ -37,6 +37,131 @@
         "How does the translation speed and accuracy compare with Timekettle?"
       ],
       "notes": "Phase 1 target. Hall, booth and confirmed exhibitors still to be researched."
+    },
+    {
+      "exhibitorId": "shenzhen-topband-motor",
+      "priority": "high",
+      "status": "verified",
+      "reason": "Motion and actuator supplier worth checking for compact linear movement, servo positioning and actuator technology that could form part of custom board handling, gripper positioning or transfer-table mechanisms.",
+      "interests": ["Linear actuators", "Motion control", "Servo positioning", "Custom actuator assemblies"],
+      "questions": [
+        "What payload and stroke ranges are available for the micro linear actuator range?",
+        "Can actuators be synchronised across multiple axes for long-object handling?",
+        "Do they supply controllers, APIs or PLC integration examples?",
+        "Can they customise actuator speed, duty cycle, sealing or mounting for dusty timber environments?"
+      ],
+      "notes": "Official booth-confirmed lead. Not a complete timber stacker, but potentially useful motion hardware."
+    },
+    {
+      "exhibitorId": "shenzhen-coolmay-technology",
+      "priority": "high",
+      "status": "verified",
+      "reason": "PLC, HMI, servo drive and VFD supplier; useful for the control layer of a timber stacking cell, conveyors, lift tables or briquette support equipment.",
+      "interests": ["PLCs", "HMI panels", "Servo systems", "VFDs", "Machine control architecture"],
+      "questions": [
+        "Can their PLCs coordinate multiple servo axes for long timber handling?",
+        "Do they support common industrial protocols for robot, vision and conveyor integration?",
+        "What local or remote support is available for custom machine builders?",
+        "Can they show examples of packaging, stacking or material-handling machines using their controls?"
+      ],
+      "notes": "Strong automation-controls stop in Area D before looking at physical handling equipment."
+    },
+    {
+      "exhibitorId": "guangzhou-saj-electric",
+      "priority": "high",
+      "status": "verified",
+      "reason": "Drive and industrial automation supplier with booths in the Industrial Automation area and General Machinery area; useful for motor/VFD/control discussions for conveyors, transfer tables and production-line drives.",
+      "interests": ["VFDs", "Motor drives", "Industrial automation", "Energy efficient machine control"],
+      "questions": [
+        "Which drives suit dusty sawmill conveyors and lift tables?",
+        "Can their VFDs handle synchronized conveyor sections or positioning applications?",
+        "Do they have application examples in timber, packaging, palletizing or heavy material handling?",
+        "What PLC or API integration options are available?"
+      ],
+      "notes": "Verify exact stand on the official Canton Fair app before travel because this lead came from SAJ's company social post."
+    },
+    {
+      "exhibitorId": "invt-electric",
+      "priority": "medium",
+      "status": "verified",
+      "reason": "Industrial automation and drive supplier; useful for VFD, motion-control and energy-efficiency questions around conveyors, motors, dust extraction and machinery upgrades.",
+      "interests": ["Drives", "Motion control", "Industrial automation", "Energy efficiency", "Solar/storage backup"],
+      "questions": [
+        "Which VFDs are recommended for conveyors, augers, fans and dust extraction?",
+        "Do they support multi-motor synchronisation or motion-control applications?",
+        "Can they provide examples for packaging, materials handling or wood-processing lines?",
+        "What support is available for Australian installations?"
+      ],
+      "notes": "Not a timber-stacking supplier, but a useful electrical and drive-control stop if route time allows."
+    },
+    {
+      "exhibitorId": "niuli-machinery",
+      "priority": "high",
+      "status": "verified",
+      "reason": "Material handling manufacturer with stackers, pallet trucks, forklifts and lift platforms. Not a timber stacking automation supplier, but very relevant for handling packs, movement between stations and practical load-handling hardware.",
+      "interests": ["Stackers", "Forklifts", "Pallet handling", "Lift platforms", "Loading ramps"],
+      "questions": [
+        "What lifting capacities and fork lengths are available for long or uneven timber packs?",
+        "Can stackers or lift platforms be customised for long hardwood boards?",
+        "Do they offer attachments or fixtures for timber packs?",
+        "What spare parts and service support can they provide for Australia?"
+      ],
+      "notes": "Verified version of the earlier external Niuli lead."
+    },
+    {
+      "exhibitorId": "zhengzhou-thoyu-equipment",
+      "priority": "high",
+      "status": "verified",
+      "reason": "Very relevant to wood-waste and briquette-adjacent production: presswood pallet, block pallet, wood nailing and plastic extrusion equipment. Also mentions shredding/grinding and drying in related company material.",
+      "interests": ["Presswood pallet machinery", "Wood waste processing", "Drying", "Block making", "Automation for wood residue products"],
+      "questions": [
+        "Can their presswood process use Australian hardwood sawdust or mixed hardwood residues?",
+        "What particle size, moisture content and binder system are required?",
+        "Do they supply shredders, grinders, dryers, hoppers and conveyors as a complete line?",
+        "Can equipment be adapted from pallet blocks to briquettes or fuel blocks?"
+      ],
+      "notes": "One of the best briquette/wood-residue leads found in this pass. Booth source is a company LinkedIn post, so cross-check in Canton Fair app."
+    },
+    {
+      "exhibitorId": "lonx-laser",
+      "priority": "low",
+      "status": "verified",
+      "reason": "Laser cutting is not core timber stacking, but may be useful for fabricating brackets, machine frames or custom metal parts for automation projects.",
+      "interests": ["Fiber laser cutting", "Metal fabrication", "Tube/profile cutting"],
+      "questions": [
+        "Can their machines cut heavy tube or profiles for machine frames?",
+        "What support and spare parts are available internationally?",
+        "Do they provide nesting/software workflows suitable for custom fabrication?"
+      ],
+      "notes": "Route filler in Hall 20.1 if already nearby for automation booths."
+    },
+    {
+      "exhibitorId": "navan-machine",
+      "priority": "medium",
+      "status": "verified",
+      "reason": "Packaging and production-line supplier with palletizing-machine capability; not timber-specific, but worth asking about adapting end-of-line automation concepts to briquette bagging, weighing, packing and palletising.",
+      "interests": ["Packaging automation", "Palletizing", "Turnkey production lines", "Conveyors"],
+      "questions": [
+        "Do they build palletizing cells or integrate third-party robots?",
+        "Can their conveyors, weighing or packing systems handle briquettes or wood-fuel products?",
+        "Do they supply complete lines with PLC integration and safety guarding?",
+        "Can they show examples outside beverage filling?"
+      ],
+      "notes": "Best treated as a packaging/palletising lead, not a timber handling specialist."
+    },
+    {
+      "exhibitorId": "fangkuai-boiler",
+      "priority": "medium",
+      "status": "verified",
+      "reason": "Biomass boiler supplier relevant to briquette production economics and possible use of wood residue fuel; useful for understanding combustion, drying heat and steam/hot-water options.",
+      "interests": ["Biomass fired boilers", "Industrial heating", "Steam", "Drying heat source"],
+      "questions": [
+        "Can their biomass boilers run on hardwood briquettes or sawdust-derived fuel?",
+        "What fuel moisture and particle-size limits apply?",
+        "Can they provide heat for dryers in a briquette production line?",
+        "What emissions controls and certifications would be needed for Australia?"
+      ],
+      "notes": "Supporting briquette-production equipment rather than briquette press machinery."
     }
   ]
 }
