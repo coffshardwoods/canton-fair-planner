@@ -439,6 +439,24 @@
       ],
       "questions": [],
       "notes": "Area A general browse, allow 1–2 hours. Not a confirmed individual booth."
+    },
+    {
+      "exhibitorId": "target-service-robots",
+      "priority": "medium",
+      "status": "browse",
+      "reason": "Explore service robotics and autonomous technology during Area D visit.",
+      "interests": [
+        "Cleaning robots",
+        "Delivery robots",
+        "Hospitality robots",
+        "Autonomous systems"
+      ],
+      "questions": [
+        "What level of autonomy is supported?",
+        "What navigation and obstacle detection are used?",
+        "Is Australian support available?"
+      ],
+      "notes": "Hall 21.2 Friendship Hall. Allow 30 to 60 minutes for browsing. Booth TBC."
     }
   ]
 }
