@@ -403,6 +403,23 @@
       ],
       "website": "https://cncwmt.com/qa/wmtcnc-to-showcase-cnc-turning-and-milling-solutions-at-the-140th-canton-fair-2026/",
       "source": "Company booth announcement previously identified; reconfirm booth on official Canton Fair exhibitor directory before visit."
+    },
+    {
+      "id": "target-autonomous-slashers",
+      "demo": true,
+      "company": "Agricultural Robotic Mowers / Autonomous Slashers",
+      "phase": "Phase 1",
+      "area": "Area B",
+      "hall": "TBC",
+      "booth": "TBC",
+      "zone": "Agricultural Machinery",
+      "category": "Agricultural Machinery",
+      "products": [
+        "Autonomous slashers",
+        "RTK GPS mowers"
+      ],
+      "website": "",
+      "source": "Browsing category only; location unconfirmed."
     }
   ]
 }
