@@ -11,6 +11,7 @@ const state = {
   search: "",
   priority: "all",
   hall: "all",
+  area: "all",
   category: "all",
   status: "all",
   records: [],
@@ -23,6 +24,7 @@ const els = {
   searchInput: document.querySelector("#searchInput"),
   priorityFilter: document.querySelector("#priorityFilter"),
   hallFilter: document.querySelector("#hallFilter"),
+  areaFilter: document.querySelector("#areaFilter"),
   categoryFilter: document.querySelector("#categoryFilter"),
   statusFilter: document.querySelector("#statusFilter"),
   cardsView: document.querySelector("#cardsView"),
@@ -143,6 +145,7 @@ function bindControls() {
   for (const [key, element] of [
     ["priority", els.priorityFilter],
     ["hall", els.hallFilter],
+    ["area", els.areaFilter],
     ["category", els.categoryFilter],
     ["status", els.statusFilter]
   ]) {
@@ -159,6 +162,7 @@ function setActive(selector, activeButton) {
 
 function buildSelects() {
   fillSelect(els.priorityFilter, ["all", "high", "medium", "low", "unselected"], "All priorities");
+  fillSelect(els.areaFilter, uniqueValues(state.records.map((record) => record.area)), "All areas");
   fillSelect(els.hallFilter, uniqueValues(state.records.map((record) => record.hall)), "All halls");
   fillSelect(els.categoryFilter, uniqueValues(state.records.map((record) => record.category)), "All categories");
   fillSelect(els.statusFilter, uniqueValues(state.records.flatMap((record) => record.statuses)), "All statuses");
@@ -200,9 +204,10 @@ function filteredRecords() {
     const searchMatch = !state.search || record.combinedText.includes(state.search);
     const priorityMatch = state.priority === "all" || record.topPriority === state.priority;
     const hallMatch = state.hall === "all" || record.hall === state.hall;
+    const areaMatch = state.area === "all" || record.area === state.area;
     const categoryMatch = state.category === "all" || record.category === state.category;
     const statusMatch = state.status === "all" || record.statuses.includes(state.status);
-    return ownerMatch && searchMatch && priorityMatch && hallMatch && categoryMatch && statusMatch;
+    return ownerMatch && searchMatch && priorityMatch && hallMatch && areaMatch && categoryMatch && statusMatch;
   });
 }
 
