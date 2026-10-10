@@ -463,4 +463,7 @@ h3 {
 }
 
 .route-priority { display:inline-block; margin-top:5px; border:1px solid #bbb; border-radius:12px; padding:3px 8px; font-size:12px; font-weight:700; }
-.route-priority[data-priority="high"] { font-weight:900; }
+.route-priority[data-priority="high"] { background:#fff1e5; color:var(--red); border-color:var(--red); font-weight:900; }
+.route-priority[data-priority="medium"] { background:#fff8db; color:var(--amber); border-color:var(--amber); }
+.route-priority[data-priority="low"] { background:#edf4f2; color:var(--accent-strong); border-color:var(--line); }
+.route-priority[data-priority="unselected"] { background:#f3f4f6; color:#666; border-color:#ddd; }
