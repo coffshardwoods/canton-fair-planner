@@ -355,6 +355,54 @@
       ],
       "website": "",
       "source": "Planning category based on user's floor map; not a confirmed exhibitor. Verify October 2026 hall allocations."
+    },
+    {
+      "id": "quick-cnc",
+      "demo": false,
+      "company": "Quick CNC",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "19.1",
+      "booth": "19.1G20",
+      "zone": "CNC / Processing Machinery",
+      "category": "CNC Machinery",
+      "products": [
+        "CNC woodworking routers"
+      ],
+      "website": "https://www.quick-cnc.com/news/news1/The140th_China_Import_and_Export_Fair_Canton_Fair_is_coming.html",
+      "source": "Company booth announcement previously identified; reconfirm booth on official Canton Fair exhibitor directory before visit."
+    },
+    {
+      "id": "superstar-cnc",
+      "demo": false,
+      "company": "Superstar CNC",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "20.1",
+      "booth": "20.1H28",
+      "zone": "CNC / Processing Machinery",
+      "category": "CNC Machinery",
+      "products": [
+        "CNC routers and laser cutters"
+      ],
+      "website": "https://www.cncrouter.cn/af/140th-canton-fair-2026-superstar-cnc-booth-20-1h28",
+      "source": "Company booth announcement previously identified; reconfirm booth on official Canton Fair exhibitor directory before visit."
+    },
+    {
+      "id": "wmtcnc",
+      "demo": false,
+      "company": "WMTCNC",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "20.1",
+      "booth": "20.1I32-33",
+      "zone": "CNC / Processing Machinery",
+      "category": "CNC Machinery",
+      "products": [
+        "CNC lathes and milling machines"
+      ],
+      "website": "https://cncwmt.com/qa/wmtcnc-to-showcase-cnc-turning-and-milling-solutions-at-the-140th-canton-fair-2026/",
+      "source": "Company booth announcement previously identified; reconfirm booth on official Canton Fair exhibitor directory before visit."
     }
   ]
 }
