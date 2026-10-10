@@ -455,6 +455,25 @@
       ],
       "website": "",
       "source": "Planning category only; hall allocation from floor map."
+    },
+    {
+      "id": "target-service-robots",
+      "demo": true,
+      "company": "Service Robots (browsing target)",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "21.2",
+      "booth": "TBC",
+      "zone": "Service Robots — Friendship Hall",
+      "category": "Service Robots",
+      "products": [
+        "Commercial cleaning robots",
+        "Delivery robots",
+        "Hospitality robots",
+        "Autonomous service systems"
+      ],
+      "website": "",
+      "source": "General browsing category based on the 140th Canton Fair Phase 1 floor map; not a confirmed individual exhibitor."
     }
   ]
 }
