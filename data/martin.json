@@ -340,6 +340,54 @@
       "interests": [],
       "questions": [],
       "notes": "Confirm October hall allocation."
+    },
+    {
+      "exhibitorId": "quick-cnc",
+      "priority": "high",
+      "status": "booth listed - reconfirm",
+      "reason": "CNC woodworking routers relevant to hardwood machining.",
+      "interests": [
+        "CNC equipment",
+        "Machine demonstrations",
+        "Australian support"
+      ],
+      "questions": [
+        "What materials and dimensions can it machine?",
+        "What is the landed cost and support arrangement for Australia?"
+      ],
+      "notes": "Reconfirm hall and booth against official October exhibitor directory."
+    },
+    {
+      "exhibitorId": "superstar-cnc",
+      "priority": "high",
+      "status": "booth listed - reconfirm",
+      "reason": "CNC routers and laser cutting machinery.",
+      "interests": [
+        "CNC equipment",
+        "Machine demonstrations",
+        "Australian support"
+      ],
+      "questions": [
+        "What materials and dimensions can it machine?",
+        "What is the landed cost and support arrangement for Australia?"
+      ],
+      "notes": "Reconfirm hall and booth against official October exhibitor directory."
+    },
+    {
+      "exhibitorId": "wmtcnc",
+      "priority": "medium",
+      "status": "booth listed - reconfirm",
+      "reason": "CNC lathes and milling equipment for metal fabrication.",
+      "interests": [
+        "CNC equipment",
+        "Machine demonstrations",
+        "Australian support"
+      ],
+      "questions": [
+        "What materials and dimensions can it machine?",
+        "What is the landed cost and support arrangement for Australia?"
+      ],
+      "notes": "Reconfirm hall and booth against official October exhibitor directory."
     }
   ]
 }
