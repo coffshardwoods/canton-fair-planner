@@ -307,6 +307,54 @@
       ],
       "website": "",
       "source": "Planning placeholder only; Hall 16.2 and category allocation unverified for October 2026."
+    },
+    {
+      "id": "target-area-c-new-energy",
+      "demo": true,
+      "company": "New Energy Resources (browsing category)",
+      "phase": "Phase 1",
+      "area": "Area C",
+      "hall": "14.2, 15.2",
+      "booth": "TBC",
+      "zone": "New Energy Resources",
+      "category": "New Energy Resources",
+      "products": [
+        "Solar, batteries, inverters and energy storage"
+      ],
+      "website": "",
+      "source": "Planning category based on user's floor map; not a confirmed exhibitor. Verify October 2026 hall allocations."
+    },
+    {
+      "id": "target-area-c-electronic-electrical",
+      "demo": true,
+      "company": "Electronic / Electrical Products (browsing category)",
+      "phase": "Phase 1",
+      "area": "Area C",
+      "hall": "14.3, 15.3, 16.3",
+      "booth": "TBC",
+      "zone": "Electronic / Electrical Products",
+      "category": "Electronic / Electrical Products",
+      "products": [
+        "Electronics and electrical equipment"
+      ],
+      "website": "",
+      "source": "Planning category based on user's floor map; not a confirmed exhibitor. Verify October 2026 hall allocations."
+    },
+    {
+      "id": "target-area-c-lighting",
+      "demo": true,
+      "company": "Lighting Equipment (browsing category)",
+      "phase": "Phase 1",
+      "area": "Area C",
+      "hall": "14.4, 15.4, 16.4",
+      "booth": "TBC",
+      "zone": "Lighting Equipment",
+      "category": "Lighting Equipment",
+      "products": [
+        "LED, commercial and industrial lighting"
+      ],
+      "website": "",
+      "source": "Planning category based on user's floor map; not a confirmed exhibitor. Verify October 2026 hall allocations."
     }
   ]
 }
