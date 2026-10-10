@@ -313,6 +313,33 @@
         "What are the sample and wholesale prices?"
       ],
       "notes": "Category target only. Hall 16.2 is provisional; confirm October hall allocation."
+    },
+    {
+      "exhibitorId": "target-area-c-new-energy",
+      "priority": "high",
+      "status": "to browse",
+      "reason": "Area C category browsing stop",
+      "interests": [],
+      "questions": [],
+      "notes": "Confirm October hall allocation."
+    },
+    {
+      "exhibitorId": "target-area-c-electronic-electrical",
+      "priority": "medium",
+      "status": "to browse",
+      "reason": "Area C category browsing stop",
+      "interests": [],
+      "questions": [],
+      "notes": "Confirm October hall allocation."
+    },
+    {
+      "exhibitorId": "target-area-c-lighting",
+      "priority": "low",
+      "status": "to browse",
+      "reason": "Area C category browsing stop",
+      "interests": [],
+      "questions": [],
+      "notes": "Confirm October hall allocation."
     }
   ]
 }
