@@ -420,6 +420,24 @@
       ],
       "website": "",
       "source": "Browsing category only; location unconfirmed."
+    },
+    {
+      "id": "target-sawdust-drying-equipment",
+      "demo": true,
+      "company": "Sawdust Dryers / Biomass Drying Equipment (browsing target)",
+      "phase": "Phase 1",
+      "area": "Area D",
+      "hall": "18.1, 19.1",
+      "booth": "TBC",
+      "zone": "Processing Machinery",
+      "category": "Drying Equipment",
+      "products": [
+        "Rotary drum sawdust dryers",
+        "Belt dryers",
+        "Biomass-fired heat systems"
+      ],
+      "website": "",
+      "source": "Planning category only; suggested halls are not confirmed dryer locations. Check directory and ThoYu."
     }
   ]
 }
