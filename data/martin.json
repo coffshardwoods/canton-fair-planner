@@ -30,7 +30,12 @@
       "priority": "high",
       "status": "verified",
       "reason": "Motion and actuator supplier worth checking for compact linear movement, servo positioning and actuator technology that could form part of custom board handling, gripper positioning or transfer-table mechanisms.",
-      "interests": ["Linear actuators", "Motion control", "Servo positioning", "Custom actuator assemblies"],
+      "interests": [
+        "Linear actuators",
+        "Motion control",
+        "Servo positioning",
+        "Custom actuator assemblies"
+      ],
       "questions": [
         "What payload and stroke ranges are available for the micro linear actuator range?",
         "Can actuators be synchronised across multiple axes for long-object handling?",
@@ -44,7 +49,13 @@
       "priority": "high",
       "status": "verified",
       "reason": "PLC, HMI, servo drive and VFD supplier; useful for the control layer of a timber stacking cell, conveyors, lift tables or briquette support equipment.",
-      "interests": ["PLCs", "HMI panels", "Servo systems", "VFDs", "Machine control architecture"],
+      "interests": [
+        "PLCs",
+        "HMI panels",
+        "Servo systems",
+        "VFDs",
+        "Machine control architecture"
+      ],
       "questions": [
         "Can their PLCs coordinate multiple servo axes for long timber handling?",
         "Do they support common industrial protocols for robot, vision and conveyor integration?",
@@ -58,7 +69,12 @@
       "priority": "high",
       "status": "verified",
       "reason": "Drive and industrial automation supplier with booths in the Industrial Automation area and General Machinery area; useful for motor/VFD/control discussions for conveyors, transfer tables and production-line drives.",
-      "interests": ["VFDs", "Motor drives", "Industrial automation", "Energy efficient machine control"],
+      "interests": [
+        "VFDs",
+        "Motor drives",
+        "Industrial automation",
+        "Energy efficient machine control"
+      ],
       "questions": [
         "Which drives suit dusty sawmill conveyors and lift tables?",
         "Can their VFDs handle synchronized conveyor sections or positioning applications?",
@@ -72,7 +88,13 @@
       "priority": "medium",
       "status": "verified",
       "reason": "Industrial automation and drive supplier; useful for VFD, motion-control and energy-efficiency questions around conveyors, motors, dust extraction and machinery upgrades.",
-      "interests": ["Drives", "Motion control", "Industrial automation", "Energy efficiency", "Solar/storage backup"],
+      "interests": [
+        "Drives",
+        "Motion control",
+        "Industrial automation",
+        "Energy efficiency",
+        "Solar/storage backup"
+      ],
       "questions": [
         "Which VFDs are recommended for conveyors, augers, fans and dust extraction?",
         "Do they support multi-motor synchronisation or motion-control applications?",
@@ -86,7 +108,13 @@
       "priority": "high",
       "status": "verified",
       "reason": "Material handling manufacturer with stackers, pallet trucks, forklifts and lift platforms. Not a timber stacking automation supplier, but very relevant for handling packs, movement between stations and practical load-handling hardware.",
-      "interests": ["Stackers", "Forklifts", "Pallet handling", "Lift platforms", "Loading ramps"],
+      "interests": [
+        "Stackers",
+        "Forklifts",
+        "Pallet handling",
+        "Lift platforms",
+        "Loading ramps"
+      ],
       "questions": [
         "What lifting capacities and fork lengths are available for long or uneven timber packs?",
         "Can stackers or lift platforms be customised for long hardwood boards?",
@@ -100,7 +128,13 @@
       "priority": "high",
       "status": "verified",
       "reason": "Very relevant to wood-waste and briquette-adjacent production: presswood pallet, block pallet, wood nailing and plastic extrusion equipment. Also mentions shredding/grinding and drying in related company material.",
-      "interests": ["Presswood pallet machinery", "Wood waste processing", "Drying", "Block making", "Automation for wood residue products"],
+      "interests": [
+        "Presswood pallet machinery",
+        "Wood waste processing",
+        "Drying",
+        "Block making",
+        "Automation for wood residue products"
+      ],
       "questions": [
         "Can their presswood process use Australian hardwood sawdust or mixed hardwood residues?",
         "What particle size, moisture content and binder system are required?",
@@ -114,7 +148,11 @@
       "priority": "low",
       "status": "verified",
       "reason": "Laser cutting is not core timber stacking, but may be useful for fabricating brackets, machine frames or custom metal parts for automation projects.",
-      "interests": ["Fiber laser cutting", "Metal fabrication", "Tube/profile cutting"],
+      "interests": [
+        "Fiber laser cutting",
+        "Metal fabrication",
+        "Tube/profile cutting"
+      ],
       "questions": [
         "Can their machines cut heavy tube or profiles for machine frames?",
         "What support and spare parts are available internationally?",
@@ -127,7 +165,12 @@
       "priority": "medium",
       "status": "verified",
       "reason": "Packaging and production-line supplier with palletizing-machine capability; not timber-specific, but worth asking about adapting end-of-line automation concepts to briquette bagging, weighing, packing and palletising.",
-      "interests": ["Packaging automation", "Palletizing", "Turnkey production lines", "Conveyors"],
+      "interests": [
+        "Packaging automation",
+        "Palletizing",
+        "Turnkey production lines",
+        "Conveyors"
+      ],
       "questions": [
         "Do they build palletizing cells or integrate third-party robots?",
         "Can their conveyors, weighing or packing systems handle briquettes or wood-fuel products?",
@@ -141,7 +184,12 @@
       "priority": "medium",
       "status": "verified",
       "reason": "Biomass boiler supplier relevant to briquette production economics and possible use of wood residue fuel; useful for understanding combustion, drying heat and steam/hot-water options.",
-      "interests": ["Biomass fired boilers", "Industrial heating", "Steam", "Drying heat source"],
+      "interests": [
+        "Biomass fired boilers",
+        "Industrial heating",
+        "Steam",
+        "Drying heat source"
+      ],
       "questions": [
         "Can their biomass boilers run on hardwood briquettes or sawdust-derived fuel?",
         "What fuel moisture and particle-size limits apply?",
@@ -155,7 +203,13 @@
       "priority": "high",
       "status": "verified",
       "reason": "Strong timber-stacking-cell component lead: positioning sensors, safety light curtains and photoelectric sensing are relevant to pack detection, machine guarding, alignment and conveyor/robot cell safety.",
-      "interests": ["Laser and TOF distance sensing", "Safety light curtains", "Photoelectric sensors", "Machine safety", "Positioning and alignment"],
+      "interests": [
+        "Laser and TOF distance sensing",
+        "Safety light curtains",
+        "Photoelectric sensors",
+        "Machine safety",
+        "Positioning and alignment"
+      ],
       "questions": [
         "Which sensor technologies work reliably with dusty hardwood, variable surfaces and changing ambient light?",
         "Can they recommend a sensor layout for detecting board/pack position and height on a conveyor?",
@@ -169,7 +223,13 @@
       "priority": "medium",
       "status": "verified",
       "reason": "Useful material-handling benchmark for moving finished timber packs and comparing electric pallet stackers or reach-truck options around an automated cell.",
-      "interests": ["Electric pallet stackers", "Pallet trucks", "Reach trucks", "Timber-pack handling", "Warehouse flow"],
+      "interests": [
+        "Electric pallet stackers",
+        "Pallet trucks",
+        "Reach trucks",
+        "Timber-pack handling",
+        "Warehouse flow"
+      ],
       "questions": [
         "Which machines and attachments are suitable for long, uneven or heavy timber packs?",
         "What lift capacities, fork lengths and aisle widths are achievable?",
@@ -183,7 +243,13 @@
       "priority": "high",
       "status": "verified",
       "reason": "A practical alternative to a robot for moving long hardwood packs: overhead or mobile gantry-crane systems can span a production line and handle awkward loads where fork or robot reach becomes limiting.",
-      "interests": ["Overhead cranes", "Mobile gantry cranes", "Electric hoists", "Timber-pack lifting", "Custom lifting fixtures"],
+      "interests": [
+        "Overhead cranes",
+        "Mobile gantry cranes",
+        "Electric hoists",
+        "Timber-pack lifting",
+        "Custom lifting fixtures"
+      ],
       "questions": [
         "Can a gantry or overhead system lift long, uneven hardwood packs safely without board damage?",
         "Do they design lifting beams, spreader bars or custom timber-pack fixtures?",
@@ -197,7 +263,13 @@
       "priority": "high",
       "status": "verified",
       "reason": "Crane, gantry and lifting-beam supplier in the Industrial Automation hall. Relevant for assessing an overhead pack-handling mechanism or a semi-automated timber stacking station.",
-      "interests": ["Gantry cranes", "Overhead cranes", "Lifting beams", "Electric hoists", "Timber-pack handling"],
+      "interests": [
+        "Gantry cranes",
+        "Overhead cranes",
+        "Lifting beams",
+        "Electric hoists",
+        "Timber-pack handling"
+      ],
       "questions": [
         "Can they engineer a lifting beam or clamp arrangement for hardwood packs of varying lengths?",
         "What options provide controlled, repeatable placement onto stacking bunks?",
@@ -211,7 +283,13 @@
       "priority": "medium",
       "status": "verified",
       "reason": "AGV and AMR drive specialist. Useful for understanding whether automated mobile handling could move packs or pallets between sawmill process steps and a future stacking cell.",
-      "interests": ["AGV drives", "AMR drives", "Automated intralogistics", "Mobile material handling", "Motion systems"],
+      "interests": [
+        "AGV drives",
+        "AMR drives",
+        "Automated intralogistics",
+        "Mobile material handling",
+        "Motion systems"
+      ],
       "questions": [
         "What payload, gradient and floor-condition limits apply to their AGV/AMR drive solutions?",
         "Can the drive technology be integrated into a custom long-load timber carrier?",
@@ -219,6 +297,22 @@
         "Do they have examples of heavy, dusty industrial applications rather than clean warehouse use?"
       ],
       "notes": "Useful for future material flow, but it will not replace a stacking mechanism on its own."
+    },
+    {
+      "exhibitorId": "target-electric-bikes-bicycles",
+      "priority": "medium",
+      "status": "find confirmed booths",
+      "reason": "Browse electric bikes and bicycles while visiting Area C.",
+      "interests": [
+        "Electric bikes",
+        "Bicycles",
+        "Battery and motor technology"
+      ],
+      "questions": [
+        "Which models are suitable for Australia?",
+        "What are the sample and wholesale prices?"
+      ],
+      "notes": "Category target only. Hall 16.2 is provisional; confirm October hall allocation."
     }
   ]
 }
