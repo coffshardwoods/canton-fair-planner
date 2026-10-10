@@ -388,6 +388,25 @@
         "What is the landed cost and support arrangement for Australia?"
       ],
       "notes": "Reconfirm hall and booth against official October exhibitor directory."
+    },
+    {
+      "exhibitorId": "target-autonomous-slashers",
+      "priority": "high",
+      "status": "find confirmed exhibitors",
+      "reason": "Investigate agricultural-scale autonomous slashers for approximately 150–200 acres of grass around sawmill property, including some slopes.",
+      "interests": [
+        "RTK GPS navigation",
+        "Autonomous tractor slashers",
+        "Tracked remote-controlled slashers",
+        "Slope capability"
+      ],
+      "questions": [
+        "What is practical area coverage per hour?",
+        "What slope and vegetation limits apply?",
+        "How are people, vehicles and obstacles detected?",
+        "Is Australian servicing available?"
+      ],
+      "notes": "Area B browsing target; also look for robotics in Area D. No booth confirmed."
     }
   ]
 }
