@@ -1,4 +1,4 @@
-const CACHE_NAME = "canton-fair-planner-v2";
+const CACHE_NAME = "canton-fair-planner-v3";
 const ASSETS = [
   "./",
   "index.html",
