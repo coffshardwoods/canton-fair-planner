@@ -407,6 +407,24 @@
         "Is Australian servicing available?"
       ],
       "notes": "Area B browsing target; also look for robotics in Area D. No booth confirmed."
+    },
+    {
+      "exhibitorId": "target-sawdust-drying-equipment",
+      "priority": "high",
+      "status": "browse - booths TBC",
+      "reason": "Investigate hardwood sawdust dryers for briquette production.",
+      "interests": [
+        "Rotary drum dryers",
+        "Belt dryers",
+        "Biomass heating",
+        "Moisture control"
+      ],
+      "questions": [
+        "Can it dry hardwood sawdust and shavings?",
+        "What moisture reduction and throughput are possible?",
+        "Can hardwood waste supply the heat?"
+      ],
+      "notes": "Area D exploratory halls 18.1 and 19.1; not confirmed dryer booths. Ask ThoYu about dryers and verify the official exhibitor directory."
     }
   ]
 }
