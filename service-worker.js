@@ -1,9 +1,11 @@
-const CACHE_NAME = "canton-fair-planner-v3";
+const CACHE_NAME = "canton-fair-planner-v4";
 const ASSETS = [
   "./",
   "index.html",
   "style.css",
+  "style.css?v=4",
   "app.js",
+  "app.js?v=4",
   "manifest.json",
   "icons/icon.svg",
   "data/exhibitors.json",
