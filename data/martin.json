@@ -425,6 +425,20 @@
         "Can hardwood waste supply the heat?"
       ],
       "notes": "Area D exploratory halls 18.1 and 19.1; not confirmed dryer booths. Ask ThoYu about dryers and verify the official exhibitor directory."
+    },
+    {
+      "exhibitorId": "target-household-electrical-appliances",
+      "priority": "medium",
+      "status": "browse",
+      "reason": "Personal-interest browsing of household appliances and smart home technology.",
+      "interests": [
+        "Robot vacuums",
+        "Smart kitchen appliances",
+        "Air purifiers",
+        "Smart home"
+      ],
+      "questions": [],
+      "notes": "Area A general browse, allow 1–2 hours. Not a confirmed individual booth."
     }
   ]
 }
