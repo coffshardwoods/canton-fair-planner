@@ -326,6 +326,7 @@ function routeItem(record, number) {
       <strong>${number}</strong>
       <div>
         <h2>${escapeHtml(record.company)}</h2>
+        <small class="route-priority" data-priority="${escapeHtml(record.topPriority)}">${escapeHtml(titleCase(record.topPriority))} priority</small>
         <p>${escapeHtml(record.area || "Area TBC")} · ${escapeHtml(record.hall || "Hall TBC")} · ${escapeHtml(record.booth || "Booth TBC")}</p>
         <span>${escapeHtml(record.category || "Uncategorised")}</span>
       </div>
